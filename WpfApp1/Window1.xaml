@@ -43,7 +43,7 @@ Margin="215,132,0,0" VerticalAlignment="Top" Width="202" Minimum="100" Maximum="
 SelectionEnd="200" IsSelectionRangeEnabled="True" ValueChanged="sMarkup_ValueChanged" />
         <Button x:Name="bMarkup" Content="Установить наценку" 
 HorizontalAlignment="Left" Margin="496,121,0,0" 
-VerticalAlignment="Top" Height="38" Width="145" />
+VerticalAlignment="Top" Height="38" Width="145" Click="bMarkup_Click" />
         <Button x:Name="bAdd" Content="Добавить информацию" 
 HorizontalAlignment="Left" Margin="654,59,0,0" 
 VerticalAlignment="Top" Height="40" Width="124" Click="bAdd_Click" />
